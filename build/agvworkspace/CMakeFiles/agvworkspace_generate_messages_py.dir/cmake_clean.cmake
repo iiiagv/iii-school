@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/agvworkspace_generate_messages_py"
-  "/root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_WordCount.py"
   "/root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_AgvNav.py"
   "/root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/__init__.py"
 )

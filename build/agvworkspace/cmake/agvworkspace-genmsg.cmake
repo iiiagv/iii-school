@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "agvworkspace: 0 messages, 2 services")
+message(STATUS "agvworkspace: 0 messages, 1 services")
 
 set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
@@ -17,11 +17,6 @@ add_custom_target(agvworkspace_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/WordCount.srv" NAME_WE)
-add_custom_target(_agvworkspace_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agvworkspace" "/root/iii-school/src/agvworkspace/srv/WordCount.srv" ""
-)
-
 get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/AgvNav.srv" NAME_WE)
 add_custom_target(_agvworkspace_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "agvworkspace" "/root/iii-school/src/agvworkspace/srv/AgvNav.srv" ""
@@ -35,12 +30,6 @@ add_custom_target(_agvworkspace_generate_messages_check_deps_${_filename}
 ### Generating Messages
 
 ### Generating Services
-_generate_srv_cpp(agvworkspace
-  "/root/iii-school/src/agvworkspace/srv/WordCount.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/agvworkspace
-)
 _generate_srv_cpp(agvworkspace
   "/root/iii-school/src/agvworkspace/srv/AgvNav.srv"
   "${MSG_I_FLAGS}"
@@ -60,8 +49,6 @@ add_custom_target(agvworkspace_generate_messages_cpp
 add_dependencies(agvworkspace_generate_messages agvworkspace_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/WordCount.srv" NAME_WE)
-add_dependencies(agvworkspace_generate_messages_cpp _agvworkspace_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/AgvNav.srv" NAME_WE)
 add_dependencies(agvworkspace_generate_messages_cpp _agvworkspace_generate_messages_check_deps_${_filename})
 
@@ -76,12 +63,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agvworkspace_generate_messages_cpp)
 ### Generating Messages
 
 ### Generating Services
-_generate_srv_eus(agvworkspace
-  "/root/iii-school/src/agvworkspace/srv/WordCount.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/agvworkspace
-)
 _generate_srv_eus(agvworkspace
   "/root/iii-school/src/agvworkspace/srv/AgvNav.srv"
   "${MSG_I_FLAGS}"
@@ -101,8 +82,6 @@ add_custom_target(agvworkspace_generate_messages_eus
 add_dependencies(agvworkspace_generate_messages agvworkspace_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/WordCount.srv" NAME_WE)
-add_dependencies(agvworkspace_generate_messages_eus _agvworkspace_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/AgvNav.srv" NAME_WE)
 add_dependencies(agvworkspace_generate_messages_eus _agvworkspace_generate_messages_check_deps_${_filename})
 
@@ -117,12 +96,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agvworkspace_generate_messages_eus)
 ### Generating Messages
 
 ### Generating Services
-_generate_srv_lisp(agvworkspace
-  "/root/iii-school/src/agvworkspace/srv/WordCount.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/agvworkspace
-)
 _generate_srv_lisp(agvworkspace
   "/root/iii-school/src/agvworkspace/srv/AgvNav.srv"
   "${MSG_I_FLAGS}"
@@ -142,8 +115,6 @@ add_custom_target(agvworkspace_generate_messages_lisp
 add_dependencies(agvworkspace_generate_messages agvworkspace_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/WordCount.srv" NAME_WE)
-add_dependencies(agvworkspace_generate_messages_lisp _agvworkspace_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/AgvNav.srv" NAME_WE)
 add_dependencies(agvworkspace_generate_messages_lisp _agvworkspace_generate_messages_check_deps_${_filename})
 
@@ -158,12 +129,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agvworkspace_generate_messages_lisp
 ### Generating Messages
 
 ### Generating Services
-_generate_srv_nodejs(agvworkspace
-  "/root/iii-school/src/agvworkspace/srv/WordCount.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/agvworkspace
-)
 _generate_srv_nodejs(agvworkspace
   "/root/iii-school/src/agvworkspace/srv/AgvNav.srv"
   "${MSG_I_FLAGS}"
@@ -183,8 +148,6 @@ add_custom_target(agvworkspace_generate_messages_nodejs
 add_dependencies(agvworkspace_generate_messages agvworkspace_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/WordCount.srv" NAME_WE)
-add_dependencies(agvworkspace_generate_messages_nodejs _agvworkspace_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/AgvNav.srv" NAME_WE)
 add_dependencies(agvworkspace_generate_messages_nodejs _agvworkspace_generate_messages_check_deps_${_filename})
 
@@ -199,12 +162,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS agvworkspace_generate_messages_node
 ### Generating Messages
 
 ### Generating Services
-_generate_srv_py(agvworkspace
-  "/root/iii-school/src/agvworkspace/srv/WordCount.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/agvworkspace
-)
 _generate_srv_py(agvworkspace
   "/root/iii-school/src/agvworkspace/srv/AgvNav.srv"
   "${MSG_I_FLAGS}"
@@ -224,8 +181,6 @@ add_custom_target(agvworkspace_generate_messages_py
 add_dependencies(agvworkspace_generate_messages agvworkspace_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/WordCount.srv" NAME_WE)
-add_dependencies(agvworkspace_generate_messages_py _agvworkspace_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/iii-school/src/agvworkspace/srv/AgvNav.srv" NAME_WE)
 add_dependencies(agvworkspace_generate_messages_py _agvworkspace_generate_messages_check_deps_${_filename})
 

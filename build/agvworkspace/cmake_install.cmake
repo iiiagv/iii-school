@@ -33,10 +33,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agvworkspace/srv" TYPE FILE FILES
-    "/root/iii-school/src/agvworkspace/srv/AgvNav.srv"
-    "/root/iii-school/src/agvworkspace/srv/WordCount.srv"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/agvworkspace/srv" TYPE FILE FILES "/root/iii-school/src/agvworkspace/srv/AgvNav.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

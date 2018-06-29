@@ -79,6 +79,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -89,16 +99,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -211,19 +211,34 @@ _agvworkspace_generate_messages_check_deps_AgvNav/fast:
 .PHONY : _agvworkspace_generate_messages_check_deps_AgvNav/fast
 
 # Convenience name for target.
-agvworkspace/CMakeFiles/_agvworkspace_generate_messages_check_deps_WordCount.dir/rule:
-	cd /root/iii-school/build && $(MAKE) -f CMakeFiles/Makefile2 agvworkspace/CMakeFiles/_agvworkspace_generate_messages_check_deps_WordCount.dir/rule
-.PHONY : agvworkspace/CMakeFiles/_agvworkspace_generate_messages_check_deps_WordCount.dir/rule
+agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule:
+	cd /root/iii-school/build && $(MAKE) -f CMakeFiles/Makefile2 agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule
+.PHONY : agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule
 
 # Convenience name for target.
-_agvworkspace_generate_messages_check_deps_WordCount: agvworkspace/CMakeFiles/_agvworkspace_generate_messages_check_deps_WordCount.dir/rule
+agvworkspace_gencpp: agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule
 
-.PHONY : _agvworkspace_generate_messages_check_deps_WordCount
+.PHONY : agvworkspace_gencpp
 
 # fast build rule for target.
-_agvworkspace_generate_messages_check_deps_WordCount/fast:
-	cd /root/iii-school/build && $(MAKE) -f agvworkspace/CMakeFiles/_agvworkspace_generate_messages_check_deps_WordCount.dir/build.make agvworkspace/CMakeFiles/_agvworkspace_generate_messages_check_deps_WordCount.dir/build
-.PHONY : _agvworkspace_generate_messages_check_deps_WordCount/fast
+agvworkspace_gencpp/fast:
+	cd /root/iii-school/build && $(MAKE) -f agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/build.make agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/build
+.PHONY : agvworkspace_gencpp/fast
+
+# Convenience name for target.
+agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /root/iii-school/build && $(MAKE) -f CMakeFiles/Makefile2 agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /root/iii-school/build && $(MAKE) -f agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 agvworkspace/CMakeFiles/agvworkspace_genlisp.dir/rule:
@@ -314,36 +329,6 @@ agvworkspace_genpy: agvworkspace/CMakeFiles/agvworkspace_genpy.dir/rule
 agvworkspace_genpy/fast:
 	cd /root/iii-school/build && $(MAKE) -f agvworkspace/CMakeFiles/agvworkspace_genpy.dir/build.make agvworkspace/CMakeFiles/agvworkspace_genpy.dir/build
 .PHONY : agvworkspace_genpy/fast
-
-# Convenience name for target.
-agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /root/iii-school/build && $(MAKE) -f CMakeFiles/Makefile2 agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /root/iii-school/build && $(MAKE) -f agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make agvworkspace/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule:
-	cd /root/iii-school/build && $(MAKE) -f CMakeFiles/Makefile2 agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule
-.PHONY : agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule
-
-# Convenience name for target.
-agvworkspace_gencpp: agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/rule
-
-.PHONY : agvworkspace_gencpp
-
-# fast build rule for target.
-agvworkspace_gencpp/fast:
-	cd /root/iii-school/build && $(MAKE) -f agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/build.make agvworkspace/CMakeFiles/agvworkspace_gencpp.dir/build
-.PHONY : agvworkspace_gencpp/fast
 
 # Convenience name for target.
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_eus.dir/rule:
@@ -458,11 +443,11 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... _agvworkspace_generate_messages_check_deps_AgvNav"
-	@echo "... _agvworkspace_generate_messages_check_deps_WordCount"
+	@echo "... agvworkspace_gencpp"
+	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... agvworkspace_genlisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... agvworkspace_generate_messages"
@@ -470,9 +455,8 @@ help:
 	@echo "... agvworkspace_generate_messages_lisp"
 	@echo "... list_install_components"
 	@echo "... agvworkspace_genpy"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... agvworkspace_gencpp"
 	@echo "... agvworkspace_generate_messages_eus"
+	@echo "... edit_cache"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... agvworkspace_geneus"
 	@echo "... agvworkspace_generate_messages_nodejs"

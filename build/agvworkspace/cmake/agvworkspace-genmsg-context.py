@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/root/iii-school/src/agvworkspace/srv/AgvNav.srv;/root/iii-school/src/agvworkspace/srv/WordCount.srv"
+services_str = "/root/iii-school/src/agvworkspace/srv/AgvNav.srv"
 pkg_name = "agvworkspace"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

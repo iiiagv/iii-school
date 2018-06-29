@@ -53,26 +53,17 @@ CMAKE_BINARY_DIR = /root/iii-school/build
 # Include the progress variables for this target.
 include agvworkspace/CMakeFiles/agvworkspace_generate_messages_cpp.dir/progress.make
 
-agvworkspace/CMakeFiles/agvworkspace_generate_messages_cpp: /root/iii-school/devel/include/agvworkspace/WordCount.h
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_cpp: /root/iii-school/devel/include/agvworkspace/AgvNav.h
 
-
-/root/iii-school/devel/include/agvworkspace/WordCount.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/root/iii-school/devel/include/agvworkspace/WordCount.h: /root/iii-school/src/agvworkspace/srv/WordCount.srv
-/root/iii-school/devel/include/agvworkspace/WordCount.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/root/iii-school/devel/include/agvworkspace/WordCount.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from agvworkspace/WordCount.srv"
-	cd /root/iii-school/src/agvworkspace && /root/iii-school/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/iii-school/src/agvworkspace/srv/WordCount.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/include/agvworkspace -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /root/iii-school/devel/include/agvworkspace/AgvNav.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /root/iii-school/devel/include/agvworkspace/AgvNav.h: /root/iii-school/src/agvworkspace/srv/AgvNav.srv
 /root/iii-school/devel/include/agvworkspace/AgvNav.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /root/iii-school/devel/include/agvworkspace/AgvNav.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from agvworkspace/AgvNav.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from agvworkspace/AgvNav.srv"
 	cd /root/iii-school/src/agvworkspace && /root/iii-school/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/iii-school/src/agvworkspace/srv/AgvNav.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/include/agvworkspace -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 agvworkspace_generate_messages_cpp: agvworkspace/CMakeFiles/agvworkspace_generate_messages_cpp
-agvworkspace_generate_messages_cpp: /root/iii-school/devel/include/agvworkspace/WordCount.h
 agvworkspace_generate_messages_cpp: /root/iii-school/devel/include/agvworkspace/AgvNav.h
 agvworkspace_generate_messages_cpp: agvworkspace/CMakeFiles/agvworkspace_generate_messages_cpp.dir/build.make
 

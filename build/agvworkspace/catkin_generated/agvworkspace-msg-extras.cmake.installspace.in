@@ -1,2 +1,2 @@
 set(agvworkspace_MESSAGE_FILES "")
-set(agvworkspace_SERVICE_FILES "srv/AgvNav.srv;srv/WordCount.srv")
+set(agvworkspace_SERVICE_FILES "srv/AgvNav.srv")

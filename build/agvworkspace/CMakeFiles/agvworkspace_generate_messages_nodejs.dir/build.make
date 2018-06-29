@@ -53,22 +53,15 @@ CMAKE_BINARY_DIR = /root/iii-school/build
 # Include the progress variables for this target.
 include agvworkspace/CMakeFiles/agvworkspace_generate_messages_nodejs.dir/progress.make
 
-agvworkspace/CMakeFiles/agvworkspace_generate_messages_nodejs: /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/WordCount.js
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_nodejs: /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/AgvNav.js
 
 
-/root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/WordCount.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/WordCount.js: /root/iii-school/src/agvworkspace/srv/WordCount.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from agvworkspace/WordCount.srv"
-	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /root/iii-school/src/agvworkspace/srv/WordCount.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv
-
 /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/AgvNav.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
 /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/AgvNav.js: /root/iii-school/src/agvworkspace/srv/AgvNav.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from agvworkspace/AgvNav.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from agvworkspace/AgvNav.srv"
 	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /root/iii-school/src/agvworkspace/srv/AgvNav.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv
 
 agvworkspace_generate_messages_nodejs: agvworkspace/CMakeFiles/agvworkspace_generate_messages_nodejs
-agvworkspace_generate_messages_nodejs: /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/WordCount.js
 agvworkspace_generate_messages_nodejs: /root/iii-school/devel/share/gennodejs/ros/agvworkspace/srv/AgvNav.js
 agvworkspace_generate_messages_nodejs: agvworkspace/CMakeFiles/agvworkspace_generate_messages_nodejs.dir/build.make
 

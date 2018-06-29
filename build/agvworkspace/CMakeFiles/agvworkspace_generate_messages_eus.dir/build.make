@@ -53,27 +53,20 @@ CMAKE_BINARY_DIR = /root/iii-school/build
 # Include the progress variables for this target.
 include agvworkspace/CMakeFiles/agvworkspace_generate_messages_eus.dir/progress.make
 
-agvworkspace/CMakeFiles/agvworkspace_generate_messages_eus: /root/iii-school/devel/share/roseus/ros/agvworkspace/srv/WordCount.l
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_eus: /root/iii-school/devel/share/roseus/ros/agvworkspace/srv/AgvNav.l
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_eus: /root/iii-school/devel/share/roseus/ros/agvworkspace/manifest.l
 
 
-/root/iii-school/devel/share/roseus/ros/agvworkspace/srv/WordCount.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/root/iii-school/devel/share/roseus/ros/agvworkspace/srv/WordCount.l: /root/iii-school/src/agvworkspace/srv/WordCount.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from agvworkspace/WordCount.srv"
-	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /root/iii-school/src/agvworkspace/srv/WordCount.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/share/roseus/ros/agvworkspace/srv
-
 /root/iii-school/devel/share/roseus/ros/agvworkspace/srv/AgvNav.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 /root/iii-school/devel/share/roseus/ros/agvworkspace/srv/AgvNav.l: /root/iii-school/src/agvworkspace/srv/AgvNav.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from agvworkspace/AgvNav.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from agvworkspace/AgvNav.srv"
 	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /root/iii-school/src/agvworkspace/srv/AgvNav.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/share/roseus/ros/agvworkspace/srv
 
 /root/iii-school/devel/share/roseus/ros/agvworkspace/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for agvworkspace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for agvworkspace"
 	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /root/iii-school/devel/share/roseus/ros/agvworkspace agvworkspace std_msgs
 
 agvworkspace_generate_messages_eus: agvworkspace/CMakeFiles/agvworkspace_generate_messages_eus
-agvworkspace_generate_messages_eus: /root/iii-school/devel/share/roseus/ros/agvworkspace/srv/WordCount.l
 agvworkspace_generate_messages_eus: /root/iii-school/devel/share/roseus/ros/agvworkspace/srv/AgvNav.l
 agvworkspace_generate_messages_eus: /root/iii-school/devel/share/roseus/ros/agvworkspace/manifest.l
 agvworkspace_generate_messages_eus: agvworkspace/CMakeFiles/agvworkspace_generate_messages_eus.dir/build.make

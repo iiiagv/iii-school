@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/agvworkspace_generate_messages_lisp"
-  "/root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/WordCount.lisp"
   "/root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/AgvNav.lisp"
 )
 

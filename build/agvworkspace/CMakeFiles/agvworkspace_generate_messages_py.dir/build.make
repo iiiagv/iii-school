@@ -53,29 +53,21 @@ CMAKE_BINARY_DIR = /root/iii-school/build
 # Include the progress variables for this target.
 include agvworkspace/CMakeFiles/agvworkspace_generate_messages_py.dir/progress.make
 
-agvworkspace/CMakeFiles/agvworkspace_generate_messages_py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_WordCount.py
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_AgvNav.py
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/__init__.py
 
 
-/root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_WordCount.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_WordCount.py: /root/iii-school/src/agvworkspace/srv/WordCount.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV agvworkspace/WordCount"
-	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /root/iii-school/src/agvworkspace/srv/WordCount.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv
-
 /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_AgvNav.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_AgvNav.py: /root/iii-school/src/agvworkspace/srv/AgvNav.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV agvworkspace/AgvNav"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV agvworkspace/AgvNav"
 	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /root/iii-school/src/agvworkspace/srv/AgvNav.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv
 
 /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/__init__.py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_WordCount.py
 /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/__init__.py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_AgvNav.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python srv __init__.py for agvworkspace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for agvworkspace"
 	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv --initpy
 
 agvworkspace_generate_messages_py: agvworkspace/CMakeFiles/agvworkspace_generate_messages_py
-agvworkspace_generate_messages_py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_WordCount.py
 agvworkspace_generate_messages_py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/_AgvNav.py
 agvworkspace_generate_messages_py: /root/iii-school/devel/lib/python2.7/dist-packages/agvworkspace/srv/__init__.py
 agvworkspace_generate_messages_py: agvworkspace/CMakeFiles/agvworkspace_generate_messages_py.dir/build.make

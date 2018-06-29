@@ -7,6 +7,10 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/root/iii-school/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/root/iii-school/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/root/iii-school/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/root/iii-school/build"
 export PYTHONPATH="/root/iii-school/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/root/iii-school/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/root/iii-school/src:$ROS_PACKAGE_PATH"

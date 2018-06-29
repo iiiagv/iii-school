@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/agvworkspace_generate_messages_eus"
-  "/root/iii-school/devel/share/roseus/ros/agvworkspace/srv/WordCount.l"
   "/root/iii-school/devel/share/roseus/ros/agvworkspace/srv/AgvNav.l"
   "/root/iii-school/devel/share/roseus/ros/agvworkspace/manifest.l"
 )

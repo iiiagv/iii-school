@@ -53,22 +53,15 @@ CMAKE_BINARY_DIR = /root/iii-school/build
 # Include the progress variables for this target.
 include agvworkspace/CMakeFiles/agvworkspace_generate_messages_lisp.dir/progress.make
 
-agvworkspace/CMakeFiles/agvworkspace_generate_messages_lisp: /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/WordCount.lisp
 agvworkspace/CMakeFiles/agvworkspace_generate_messages_lisp: /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/AgvNav.lisp
 
 
-/root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/WordCount.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
-/root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/WordCount.lisp: /root/iii-school/src/agvworkspace/srv/WordCount.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from agvworkspace/WordCount.srv"
-	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /root/iii-school/src/agvworkspace/srv/WordCount.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv
-
 /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/AgvNav.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
 /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/AgvNav.lisp: /root/iii-school/src/agvworkspace/srv/AgvNav.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from agvworkspace/AgvNav.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/iii-school/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from agvworkspace/AgvNav.srv"
 	cd /root/iii-school/build/agvworkspace && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /root/iii-school/src/agvworkspace/srv/AgvNav.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p agvworkspace -o /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv
 
 agvworkspace_generate_messages_lisp: agvworkspace/CMakeFiles/agvworkspace_generate_messages_lisp
-agvworkspace_generate_messages_lisp: /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/WordCount.lisp
 agvworkspace_generate_messages_lisp: /root/iii-school/devel/share/common-lisp/ros/agvworkspace/srv/AgvNav.lisp
 agvworkspace_generate_messages_lisp: agvworkspace/CMakeFiles/agvworkspace_generate_messages_lisp.dir/build.make
 
