@@ -1,0 +1,8 @@
+prefix=/root/iii-school/install
+
+Name: agvcode
+Description: Description of agvcode
+Version: 0.0.0
+Cflags: -I/root/iii-school/install/include
+Libs: -L/root/iii-school/install/lib 
+Requires: message_runtime

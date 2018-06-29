@@ -1,0 +1,5 @@
+string coordinate
+---
+bool status
+string error_msg
+

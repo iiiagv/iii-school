@@ -1,0 +1,8 @@
+prefix=/root/iii-school/devel
+
+Name: agvcode
+Description: Description of agvcode
+Version: 0.0.0
+Cflags: -I/root/iii-school/devel/include
+Libs: -L/root/iii-school/devel/lib 
+Requires: message_runtime

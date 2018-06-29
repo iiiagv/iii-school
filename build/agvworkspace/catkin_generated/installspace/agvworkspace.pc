@@ -1,0 +1,8 @@
+prefix=/root/iii-school/install
+
+Name: agvworkspace
+Description: Description of agvworkspace
+Version: 0.0.0
+Cflags: -I/root/iii-school/install/include
+Libs: -L/root/iii-school/install/lib 
+Requires: message_runtime
